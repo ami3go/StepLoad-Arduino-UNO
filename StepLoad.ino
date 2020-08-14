@@ -22,8 +22,8 @@
 
 //********** text oled library ********************************************************** 
 //#include <Wire.h>              //*** Version for Arduino Wire Lib
-//#include "SSD1306Ascii.h"      //*** https://github.com/greiman/SSD1306Ascii
-//#include "SSD1306AsciiWire.h"  //*** 
+//#include "src/Oled/SSD1306Ascii.h"      //*** https://github.com/greiman/SSD1306Ascii
+//#include "src/Oled/SSD1306AsciiWire.h"  //*** 
 
 #include "src/Oled/SSD1306Ascii.h"        //**** Version for Arduino Custome I2C Lib
 #include "src/Oled/SSD1306AsciiAvrI2c.h"  //**** https://github.com/greiman/SSD1306Ascii
