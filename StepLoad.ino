@@ -14,13 +14,14 @@
 #include <avr/pgmspace.h> // libs for working with flash, writing and reading text constants 
 
 //**********graphical oled stuff******************************************************** 
-//Consume too much memory, currenly on used. Better use SSD1306Ascii *******************
+//Consume too much memory, currenly not used. Better use SSD1306Ascii *******************
 //#include <Wire.h>
 //#include <Adafruit_GFX.h>
 //#include <Adafruit_SSD1306.h>
 //***************************************************************************************
 
 //********** text oled library ********************************************************** 
+//Wire.h also consume additional 8% of flash, so swtiched not AVRI2C 
 //#include <Wire.h>              //*** Version for Arduino Wire Lib
 //#include "src/Oled/SSD1306Ascii.h"      //*** https://github.com/greiman/SSD1306Ascii
 //#include "src/Oled/SSD1306AsciiWire.h"  //*** 
