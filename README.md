@@ -2,7 +2,7 @@
 Small and usefull tool on power supply's designer desk for quick check the stability of power supply. 
 It provide fast load change form some preload (min load) to working load. 
 Doing this an usfull inofmation on feedback loop could be extracted.
-
+For more information on techincal side please read manual. 
 
 More information about StepLoad (Dynamic load,Transient Load) you can read here:
 
