@@ -1,0 +1,9 @@
+getvload
+set -ontime 250 -offtime 250 -nrep 2
+start
+set -ontime 500 -offtime 500 -nrep 2
+start
+set -ontime 1000 -offtime 1000 -nrep 2
+start
+set -ontime 5000 -offtime 5000 -nrep 2
+start
