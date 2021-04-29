@@ -600,9 +600,9 @@ static float   VoutLast;
       // Read out string from the serial monitor
       Command cmd = cli.getCommand();
       if(cmd == cmdSet) {
-        Argument ontimeArg  = cmd.getArgument("ontime");
-        Argument offtimeArg = cmd.getArgument("offtime");
-        Argument nrepArg    = cmd.getArgument("nrep");
+        Argument ontimeArg  = cmd.getArgument(F("ontime"));
+        Argument offtimeArg = cmd.getArgument(F("offtime"));
+        Argument nrepArg    = cmd.getArgument(F("nrep"));
 
         int  ontime_var  = ontimeArg.getValue().toInt()/10;
         int  offtime_var = offtimeArg.getValue().toInt()/10;
@@ -617,7 +617,7 @@ static float   VoutLast;
   }
      //Run generator CMD!
      if(cmd == cmdStart) {
-      Argument delayArg = cmd.getArgument("delay");
+      Argument delayArg = cmd.getArgument(F("delay"));
       int  delayval = delayArg.getValue().toInt();
       delayval = setValueInRange(0, delayval ,0, 5000);
       if (delayval!= 0) delay(delayval);
@@ -632,19 +632,19 @@ static float   VoutLast;
      if(cmd == cmdHelp) printHelptoSerial();
      
      if(cmd == cmdSetOntime) {
-      Argument ontimeArg = cmd.getArgument("ontimevalue");
+      Argument ontimeArg = cmd.getArgument(F("ontimevalue"));
       int  ontimeval = ontimeArg.getValue().toInt()/10;
       CHAvar.ONtime = setValueInRange(CHAvar.ONtime, ontimeval ,ONtimeMIN, ONtimeMAX);
       UpdateValuesDisplOne(); 
         }
      if(cmd == cmdSetOfftime) {
-      Argument offtimeArg = cmd.getArgument("offtimevalue");
+      Argument offtimeArg = cmd.getArgument(F("offtimevalue"));
       int  offtimeval = offtimeArg.getValue().toInt()/10;
       CHAvar.OFFtime = setValueInRange(CHAvar.OFFtime, offtimeval ,OFFtimeMIN, OFFtimeMAX);
       UpdateValuesDisplOne(); 
      }
       if(cmd == cmdSetNrep) {
-      Argument nrepArg = cmd.getArgument("nrepvalue");
+      Argument nrepArg = cmd.getArgument(F("nrepvalue"));
       int  nrepval = nrepArg.getValue().toInt();
       CHAvar.Ncycles = setValueInRange(CHAvar.Ncycles, nrepval,NcyclesMIN,NcyclesMAX); 
       UpdateValuesDisplOne(); 
