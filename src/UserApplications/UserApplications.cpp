@@ -211,7 +211,7 @@ void CLIWeclomeMassage(void){
 //      Serial.println(" "); 
 //};
 void printStatusToSerial(ChannelTimerVar const *var, unsigned int const Nruns, float const Vload){
-      Serial.println(" ");   
+      Serial.println(F(" "));   
       Serial.print(F("ONtime[us]= "));
       Serial.print(var->ONtime*10);
       //Serial.print(F("us"));
@@ -226,17 +226,17 @@ void printStatusToSerial(ChannelTimerVar const *var, unsigned int const Nruns, f
       Serial.print(F("; Nruns = "));
       Serial.print(Nruns);
 
-      Serial.print("; Vload[V]= ");
+      Serial.print(F("; Vload[V]= "));
       Serial.print(Vload,3);
       //Serial.print("V");
-      Serial.println(" "); 
+      Serial.println(F(" ")); 
 };
 
 void printVloadToSerial(float const Vload){
-      Serial.println(" ");   
-      Serial.print(" Vload [V]= ");
+      Serial.println(F(" "));   
+      Serial.print(F(" Vload [V]= "));
       Serial.print(Vload,3);
-      Serial.println(" "); 
+      Serial.println(F(" ")); 
 };
 
 
