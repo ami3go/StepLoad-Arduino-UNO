@@ -85,20 +85,20 @@ unsigned int volatile  Nstarts=0;
 //const static char StrOn_flash[strlenth]    PROGMEM = "Edit   T_ON :   100  us   -   65  ms     ";  
 //const static char StrOff_flash[strlenth]   PROGMEM = "Edit   T_OFF:   100  us   -   65  ms     ";
 //const static char StrNrep_flash[strlenth]  PROGMEM = "Edit   N_rep:   1   -   500   times      ";
-const static char StrStart_flash[strlenth] PROGMEM = "START:  <Click>    N Runs:";
-const static char StrEdit_flash[strlenth]  PROGMEM = "To Edit  Settings:   <Hold>   ----->   ";
+const static char StrStart_flash[strlenth]   PROGMEM = "START:  <Click>    N Runs:";
+const static char StrEdit_flash[strlenth]    PROGMEM = "To Edit  Settings:   <Hold>   ----->   ";
 
 const static char StrNext1_flash[strlenth]  PROGMEM = "To go Next:    Click Encoder  -->     "; 
 const static char StrNext2_flash[strlenth]  PROGMEM = "To exit Menu:  Hold Encoder  -->      ";
 
-const static char StrOn1_flash[strlenth]    PROGMEM = "[*]**   Editing   ON    time           "; 
+const static char StrOn1_flash[strlenth]    PROGMEM = "[-]oo   Editing   ON    time           "; 
 const static char StrOn2_flash[strlenth]    PROGMEM = "Min val: 100  us      Max val: 65  ms      "; 
 
-const static char StrOff1_flash[strlenth]   PROGMEM = "*[*]*   Editing   OFF    time         ";
+const static char StrOff1_flash[strlenth]   PROGMEM = "o[-]o   Editing   OFF    time         ";
 const static char StrOff2_flash[strlenth]   PROGMEM = "Min val: 100  us      Max val: 65  ms      ";
 
-const static char StrNrep1_flash[strlenth]  PROGMEM = "**[*]   Editing number of pulses      ";
-const static char StrNrep2_flash[strlenth]  PROGMEM = "  Min val: 1            Max val: 500        ";
+const static char StrNrep1_flash[strlenth]  PROGMEM = "oo[-]   Editing number of pulses      ";
+const static char StrNrep2_flash[strlenth]  PROGMEM = "Min val: 1            Max val: 500        ";
 
 // RingBuffStruct  Vout = {0 , 0, 0, 0, 0, 0 };
    RingBuffStruct  Vout;
