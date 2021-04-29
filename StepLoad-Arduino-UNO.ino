@@ -3,7 +3,7 @@
  2x oled displays on the same bus 
  3x button
  1x encoder with button
- 
+ i2c memory
 */   
 #include "src/TimerOne/TimerOne.h"         //https://github.com/PaulStoffregen/TimerOne
 #include "src/TimerTwo/TimerTwo.h"         //https://github.com/theAndreas/TimerTwo
