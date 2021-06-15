@@ -15,7 +15,7 @@ https://ridleyengineering.com/hardware/ap310-analyzer/ap300-application/step-loa
 https://www.prodigit.com/show/power-supply-test.htm
 
 Simple software for my custom project of StepLoad pulse generator
-It could be used as nice tample for pulse generator board
+It could be used as nice tamplete for pulse generator project or etc. 
 
 
 Main features are: 
@@ -28,7 +28,6 @@ Main features are:
 Project have various lib, links to original source are provided in code. 
 All libs are local to be able clone and compile project. 
 
-TBD: 
-Add hardware parts, shematic and gerbers 
+
 
 
