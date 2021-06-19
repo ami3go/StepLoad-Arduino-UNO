@@ -4,6 +4,18 @@ It provide fast load change form some preload (min load) to working load.
 Doing this an usfull inofmation on feedback loop could be extracted.
 For more information on techincal side please read manual. 
 
+<p align="center">
+  <img src="https://github.com/ami3go/StepLoad-Arduino-UNO/blob/push/Pictures/model.png" width="1000" title="hover text">
+</p>
+
+<p align="center">
+  <img src="https://github.com/ami3go/StepLoad-Arduino-UNO/blob/push/Pictures/DSC_2054.JPG" width="500" title="hover text">
+</p>
+
+
+
+
+
 More information about StepLoad (Dynamic load,Transient Load) you can read here:
 
 https://www.siglenteu.com/application-note/power-supply-design-load-step/
