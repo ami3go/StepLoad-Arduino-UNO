@@ -42,5 +42,7 @@ Project have various lib, links to original source are provided in code.
 All libs are local to be able clone and compile project. 
 
 
-
+Build:
+- Flash 29794 byte (92%) from 32256 byte
+- RAM 716 byte (34%) from 1332 byte
 
