@@ -33,13 +33,15 @@ It could be used as nice tamplete for pulse generator project or etc.
 Main features are: 
 - Fenite state machine (GUI/main code)
 - Rottary encoder support (click and hold) 
-- Command line interface (use onboard USB and serial port)
+- Command line interface (use onboard USB and serial port, SimpleCLI lib)
 - Buttons support 
 - Leds support 
-- Timer One and Timet Two 
+- Timer One and Timet Two
+- Two OLED displays (same bus different address, light SSD1306AsciiAvrI2c) 
 Project have various lib, links to original source are provided in code. 
 All libs are local to be able clone and compile project. 
 
 
-
-
+Build (Arduino UNO, AtMega328 ):
+- Flash 29794 byte (92%) from 32256 byte
+- RAM 716 byte (34%) from 1332 byte
