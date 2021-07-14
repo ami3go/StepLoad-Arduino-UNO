@@ -37,7 +37,7 @@ Main features are:
 - Buttons support 
 - Leds support 
 - Timer One and Timet Two
-- Two OLED displays (same bus different address) 
+- Two OLED displays (same bus different address, light SSD1306AsciiAvrI2c) 
 Project have various lib, links to original source are provided in code. 
 All libs are local to be able clone and compile project. 
 
